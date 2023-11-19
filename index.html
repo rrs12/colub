@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Luio Bot</title>
+    <title>Colub</title>
     
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.4.2/dist/full.min.css" rel="stylesheet" type="text/css" />
@@ -26,70 +26,69 @@
 <body class="font-[Poppins]">
     <!--Navbar-->
     <div id="full-screen" class="overflow-hidden h-screen bg-black" style="position: relative;">
-        <header class="nav_bar fixed w-full z-40 bg-[#0b1446] backdrop-blur-xl">
+        <header class="nav_bar fixed w-full z-40 bg-[#0b1446] bg-opacity-80 backdrop-blur-xl">
             <nav
-                class="navbar flex justify-between items-center w-full px-2 mx-auto z-2 py-1 text-white overflow-hidden">
+                class="navbar flex justify-between items-center w-full px-1 md:px-10 mx-auto z-2 text-white overflow-hidden">
                 <div class="logo_text ml-4">
                     <a href="#" class="flex">
-                        <img src="./resources/images/logo.png" class="sm:h-20 h-16 w-auto" />
+                        <img src="./resources/images/logo.png" class="sm:h-16 h-12 w-auto" />
                     </a>
                 </div>
-                <div class="xl:text-xl transition-all  lg:block hidden rounded-l-3xl overflow-hidden nav-links lg:static absolute lg:min-h-fit min-h-[90vh] left-[-100%] top-[3%] lg:ml-10 lg:py-0 lg:w-auto w-[97vw] text-center flex-row  text-xl lg:text-base lg:mt-0 py-14 border-l-none border-r-xl"
+                <div class="xl:text-lg transition-all  lg:block hidden rounded-l-3xl overflow-hidden nav-links lg:static absolute lg:min-h-fit min-h-[90vh] left-[-100%] top-[3%]  lg:py-0 lg:w-auto w-[97vw] text-center flex-row  text-lg lg:text-base lg:mt-0 4 border-l-none border-r-xl"
                     id="unhide">
-                    <div class="lg:hidden"></div>
-                    <ul class=" flex lg:flex-row flex-col lg:gap-[2vw] gap-8 font-normal overflow-hidden px-20 h-full">
+                    <ul class=" flex lg:flex-row flex-col lg:gap-[2vw] gap-8 font-normal overflow-hidden  h-full">
                         <li class="cursor-pointer overflow-hidden text-white">
-                            <a class="duration-500 font-bold hover:text-indigo-500" href="#features"
+                            <a class="duration-500 font-medium hover:text-indigo-500" href="#features"
                                 onclick="hide()">Articles/Blogs</a>
                         </li>
                         <li class="cursor-pointer overflow-hidden text-white">
-                            <a class="duration-500 font-bold hover:text-indigo-500" href="#review"
+                            <a class="duration-500 font-medium hover:text-indigo-500" href="#review"
                                 onclick="hide()">Project Hunt</a>
                         </li>
 
                         <li class="cursor-pointer overflow-hidden text-white">
-                            <a class="duration-500 font-bold hover:text-indigo-500" href="#review"
+                            <a class="duration-500 font-medium hover:text-indigo-500" href="#review"
                                 onclick="hide()">Community</a>
                         </li>
 
                         <li class="cursor-pointer overflow-hidden text-white">
-                            <a class="duration-500 font-bold hover:text-indigo-500" href="#review"
+                            <a class="duration-500 font-medium hover:text-indigo-500" href="#review"
                                 onclick="hide()">FAQ</a>
                         </li>
 
                         <li
-                            class="cursor-pointer border border-[#394169] overflow-hidden text-white rounded-2xl px-3 py-1 border-1 border-[#7549f3] lg:hidden hover:scale-110 duration-200 lg:mr-4">
-                            <a class="duration-500 font-bold" href="#review" onclick="hide()">Sign Up</a>
+                            class="lg:hidden cursor-pointer border border-[#394169] overflow-hidden text-white rounded-2xl px-3 py-2">
+                            <a class="duration-500 font-medium" href="#review" onclick="hide()">Sign Up</a>
                         </li>
 
 
                     </ul>
                 </div>
                 <div class="flex items-center gap-2">
-                    <a class="rounded-2xl px-3 py-1 border border-[#394169] lg:flex hidden hover:scale-110 duration-200 lg:mr-4 "
+                    <a class="rounded-2xl px-3 py-2  border border-[#394169] lg:flex hidden hover:scale-110 duration-200 lg:mx-4 "
                         href="https://discord.gg/VwkQr8X28g" target="_blank">Sign Up</a>
                     
                     <ion-icon onclick="onToggleMenu(this)" name="menu"
-                        class="menu_button py-1 px-2 rounded text-3xl text-white items-center cursor-pointer lg:hidden">
+                        class="menu_button  px-2 rounded text-3xl text-white items-center cursor-pointer lg:hidden">
                     </ion-icon>
                 </div>
             </nav>
         </header>
         <div class="flex flex-col items-center pt-[15vh] h-full px-10 z-10 bg-[#071145]">
-            <p class="text-white 2xl:text-4xl lg:text-3xl text-xl font-sans font-semibold text-center">
+            <p class="text-[#D9D9D9] 2xl:text-4xl lg:text-3xl text-xl  font-sans font-semisemibold text-center">
                Colub
             </p>
-            <p class="text-white 2xl:text-7xl lg:text-6xl text-3xl font-sans font-extrabold text-center mt-2">
+            <p class="text-white 2xl:text-8xl lg:text-7xl text-4xl font-sans font-extrabold text-center mt-6">
 Your Digital Playground.             </p>
             <p
-                class="text-[#dadae0] mt-10 2xl:text-4xl lg:text-2xl text-sm font-sans font-medium lg:font-semibold text-center px-8 md:px-14">
+                class="text-[#dadae0] mt-10 2xl:text-2xl lg:text-xl text-sm font-sans font-medium lg:font-semisemibold text-center px-8 md:px-64">
                 A Hub, where graphic designers, animators, game devs, and coding
                 gurus Hangout! We're ail about tech talk, project sharing, problem-
                 solving, and sparking that creative flame,            </p>
 
                 
-                <button class="btn btn-wide mt-10 bg-[#0d1955] hover:bg-[#12247b] border border-[#394169] hover:border-[#394169] rounded-2xl">Join Us</button>
-                <div style="position: absolute; bottom: 0;" class="z-0"><img src="./resources/images/hero_banner.svg" alt="" srcset="" class="lg:px-[14%] md:px-[10%] px-0">
+                <button class="btn btn-wide mt-10 bg-[#0d1955] hover:bg-[#12247b] border border-[#394169] hover:border-[#394169] rounded-2xl font-extrabold text-xl">Join Us</button>
+                <div style="position: absolute; bottom: 0;" class="z-0"><img src="./resources/images/hero_banner.svg" alt="" srcset="" class="xl:px-[13%] lg:px-[19%] md:px-[20%] px-5">
                 </svg></div>
 
         </div>
