@@ -5,10 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Colub</title>
-    
+
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.4.2/dist/full.min.css" rel="stylesheet" type="text/css" />
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.css" rel="stylesheet" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
@@ -66,7 +66,7 @@
                 <div class="flex items-center gap-2">
                     <a class="rounded-2xl px-3 py-2  border border-[#394169] lg:flex hidden hover:scale-110 duration-200 lg:mx-4 "
                         href="https://discord.gg/VwkQr8X28g" target="_blank">Sign Up</a>
-                    
+
                     <ion-icon onclick="onToggleMenu(this)" name="menu"
                         class="menu_button  px-2 rounded text-3xl text-white items-center cursor-pointer lg:hidden">
                     </ion-icon>
@@ -75,24 +75,46 @@
         </header>
         <section class="flex flex-col items-center pt-[15vh] h-full px-10 z-10 bg-[#071145]">
             <p class="text-[#D9D9D9] 2xl:text-4xl lg:text-3xl text-xl  font-sans font-semisemibold text-center">
-               Colub
+                Colub
             </p>
             <p class="text-white 2xl:text-8xl lg:text-7xl text-4xl font-sans font-extrabold text-center mt-6">
-Your Digital Playground.             </p>
+                Your Digital Playground. </p>
             <p
                 class="text-[#dadae0] mt-10 2xl:text-2xl lg:text-xl text-sm font-sans font-medium lg:font-semisemibold text-center px-8 md:px-64">
                 A Hub, where graphic designers, animators, game devs, and coding
                 gurus Hangout! We're ail about tech talk, project sharing, problem-
-                solving, and sparking that creative flame,            </p>
+                solving, and sparking that creative flame, </p>
 
-                
-                <button class="btn btn-wide mt-10 bg-[#0d1955] hover:bg-[#12247b] border border-[#394169] hover:border-[#394169] rounded-2xl font-extrabold text-xl">Join Us</button>
-                <div style="position: absolute; bottom: 0;" class="z-0"><img src="./resources/images/hero_banner.svg" alt="" srcset="" class="xl:px-[13%] lg:px-[19%] md:px-[20%] px-5">
+
+            <button
+                class="btn btn-wide mt-10 bg-[#0d1955] hover:bg-[#12247b] border border-[#394169] hover:border-[#394169] rounded-2xl font-extrabold text-xl">Join
+                Us</button>
+            <div style="position: absolute; bottom: 0;" class="z-0"><img src="./resources/images/hero_banner.svg" alt=""
+                    srcset="" class="xl:px-[13%] lg:px-[19%] md:px-[20%] px-5">
                 </svg></div>
 
         </section>
     </div>
 
+    <div id="features" class="bg-[#D9D9D9] py-20">
+        <div class="lg:w-[30vw] w-[70vw] md:w-[60vw] mx-[15vw] md:mx[20vw] lg:mx-[35vw]">
+            <div id="owl-demo" class="owl-carousel owl-theme lg:w-[30vw] w-[70vw] md:w-[60vw] items-center flex items-stretch">
+                <div class="item lg:w-[30vw] w-[70vw] md:w-[60vw] h-full text-center"><img src="./resources/images/svg2.svg"><h1 class="mt-5 text-left text-[#1c1c1c]">Showcase Your Talent: Flaunt your creations, get feedback and be inspired by a community of like-minded individuals.</h1> </div>
+                <div class="item lg:w-[30vw] w-[70vw] md:w-[60vw] h-full text-center"><img src="./resources/images/svg3.svg"><h1 class="mt-5 text-left text-[#1c1c1c]">Tech Talk: Discuss about the latest tech trends, coding hacks, and everything in between.</h1></div>
+                <div class="item lg:w-[30vw] w-[70vw] md:w-[60vw] h-full text-center"><img src="./resources/images/svg1.svg"><h1 class="mt-5 text-left text-[#1c1c1c]">Collaborate and Learn:  Find collaborators, solve coding mysteries, and level up your skills with hand on projects.</h1></div>
+
+            </div>
+        </div>
+
+
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <script src="./js/owl.js"></script>
     <script src="./js/nav.js"></script>
 </body>
 
