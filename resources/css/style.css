@@ -18,3 +18,7 @@ img {
     background-position: bottom;
     background-repeat: no-repeat;
   }
+
+.backdrop-blur-4xl{
+  filter: blur(256px);
+}	
