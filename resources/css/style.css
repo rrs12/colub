@@ -19,6 +19,6 @@ img {
     background-repeat: no-repeat;
   }
 
-.backdrop-blur-4xl{
-  filter: blur(256px);
-}	
+.bg-blur-4xl{
+  backdrop-filter: blur(10000px);
+}
