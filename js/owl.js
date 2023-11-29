@@ -19,12 +19,18 @@ $(document).ready(function() {
         loop:true,
         margin:10,
         autoplay:true,
-        autoplayTimeout:5000,
-        autoplayHoverPause:true,
+        slideTransition: 'linear',
+        autoplayTimeout: 6000,
+        autoplaySpeed: 6000,
+    autoplayHoverPause:true,
         responsiveClass:true,
     responsive:{
         0:{
-            items:1,
+            items:2,
+            loop:false,
+            autoplay:false,
+            nav:true,
+            dots:false,
         },
         917:{
             items:3,
