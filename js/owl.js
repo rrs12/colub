@@ -27,7 +27,6 @@ $(document).ready(function() {
     responsive:{
         0:{
             items:2,
-            loop:false,
             autoplay:false,
             nav:true,
             dots:false,
