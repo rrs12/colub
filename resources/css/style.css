@@ -79,3 +79,10 @@ opacity: 1;
 .owl-carousel .owl-nav {
 	margin: 0;
 }
+
+@media screen and (max-width: 400px) {
+	
+	.middle{
+		top: 30%;
+	}
+}
